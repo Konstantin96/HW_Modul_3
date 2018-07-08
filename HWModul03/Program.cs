@@ -168,7 +168,7 @@ namespace HT2_2606
 
         static void task9()
         {
-            Console.WriteLine("Введите 2значное число: ");
+            Console.WriteLine("Введите 2-ух значное число: ");
             string a = Console.ReadLine();
             char[] arr = a.ToCharArray();
             int a1 = Int32.Parse(arr[0].ToString());
